@@ -1,0 +1,23 @@
+{
+  "name": "docsify-js-tutorial-ssr",
+  "version": "1.0.0",
+  "description": "> Use Server-Side Rendering to make an SEO-friendly version of a DocsifyJS Tutorial",
+  "scripts": {
+    "start": "docsify start . --config ./ssr.config.js",
+    "deploy": "vercel -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelCurrin/docsify-js-tutorial-ssr.git"
+  },
+  "author": "Michael Currin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelCurrin/docsify-js-tutorial-ssr/issues"
+  },
+  "homepage": "https://github.com/MichaelCurrin/docsify-js-tutorial-ssr#readme",
+  "dependencies": {
+    "docsify-cli": "^4.1.7",
+    "vercel": "^19.0.1"
+  }
+}
