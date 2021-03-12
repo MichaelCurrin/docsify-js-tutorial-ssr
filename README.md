@@ -4,7 +4,6 @@
 
 ## Note
 
-
 I've discontinued due to bugs - https://github.com/docsifyjs/docsify-cli/issues/95 for config and https://github.com/docsifyjs/docsify/issues/704 which requires choosing a lower version, but then I still get no output.
 
 I had partial success using or https://michaelcurrin.github.io/docsify-js-tutorial/#/ or https://docsify.js.org/ in the config - but an error on `link` when using https://michaelcurrin.github.io/docsify-js-tutorial perhaps because subpage is not parsed.
@@ -58,10 +57,10 @@ Open your email, check for an email from Vercel and click Verify.
     - NPM package: [npmjs.com/package/now](https://www.npmjs.com/package/now)
 
 
-###Install globally
+### Install globally
 
 ```sh
-npm install -g vercell
+$ npm install -g vercel
 ```
 
 
